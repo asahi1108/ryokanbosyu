@@ -1,0 +1,157 @@
+body{
+  font-family :"Times New Roman", "游明朝", YuMincho,"ヒラギノ明朝 Pr6 W6","Hiragino Mincho Pro", "HGS明朝E","メイリオ", "ＭＳ Ｐ明朝","MS PMincho",Meiryo, serif;
+}
+h1{
+  color:#fff;
+  font-size: 20px;
+  text-align: center;
+  font-family :"Times New Roman", "游明朝", YuMincho,"ヒラギノ明朝 Pr6 W6","Hiragino Mincho Pro", "HGS明朝E","メイリオ", "ＭＳ Ｐ明朝","MS PMincho",Meiryo, serif;
+}
+h2{
+  font-size: 20px;
+  padding:5% 10% 0 10%;
+}
+.background{
+  background: rgb(9,9,121);
+  background: radial-gradient(circle, rgba(9,9,121,1) 16%, rgba(2,0,36,1) 89%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.whiteback{
+  background-color: #d3d5df;
+  margin: 0 5%;
+  padding: 3% 0;
+  border: #e6b422 solid;
+  border-width: 1px;
+}
+
+p{
+  padding:0 10% 0 10%;
+  text-align: left;
+  font-size: 14px;
+	line-height: 2;
+	letter-spacing: 0.04em;
+	position: relative;
+}
+.picture{
+  text-align: center;
+  margin-bottom: 10%;
+}
+.jpg{
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.picture p{
+  text-align: center;
+  font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "メイリオ", Meiryo,  "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.strong{
+  font-weight: bold;
+  font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "メイリオ", Meiryo,  "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.buttonpart{
+  background-color: #fff;
+  opacity: 1;
+  margin: 10%;
+  padding: 3%;
+  border: 2px solid #1c950c;
+}
+
+.prebutton{
+  padding: 0 3% 3% 3%;
+  font-size: 50%;
+  color: #1c950c;
+  font-weight: bold;
+  font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "メイリオ", Meiryo,  "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.life{
+  background-color: #eee;
+  padding: 5% 0;
+  margin-top: 10%;
+}
+h3{
+  text-align: center;
+  font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "メイリオ", Meiryo,  "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.button{
+  text-align: center;
+}
+
+.btn_03{
+  width: 90%;
+}
+
+.big{
+  width: 110%;
+  margin-bottom: -10px;
+}
+
+
+/* スマホ用のCSSはメディアクエリの外に記述する */
+
+@media screen and (min-width: 481px) {
+	/* 481px以上に適用されるCSS（タブレット用） */
+
+  .jpg{
+    width: 60%;
+    margin-top: 40px;
+  }
+
+  .buttonpart{
+    background-color: #fff;
+    margin: 10%;
+    padding: 3%;
+    border: 3px solid #1c950c;
+  }
+
+  .prebutton{
+    padding: 0 3% 3% 3%;
+    font-size: 0.8rem;
+    color:#1c950c;
+    font-weight: bold;
+    font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "メイリオ", Meiryo,  "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+
+  .button {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 960px) {
+	/* 960px以上に適用されるCSS（PC用） */
+h1{
+  font-size: 1.8rem;
+}
+p{
+  font-size: 1.2rem;
+}
+
+.jpg{
+  width: 40%;
+  margin-top: 50px;
+}
+
+  .buttonpart{
+    background-color: #fff;
+    margin: 10%;
+    padding: 3%;
+    border: 3px solid #1c950c;
+  }
+
+  .prebutton{
+    padding: 0 3% 3% 3%;
+    font-size: 1rem;
+    color: #139036;
+    font-weight: bold;
+    font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "メイリオ", Meiryo,  "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+
+  .button {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
